@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TU Eats</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="tueats.css">
+        <h2>Welcome to TUEats</h2>
+        
+    </head>
+    <body>
+        <form name="signup" get="https://tueats_completed.html">
+            <fieldset>
+                <img src="TowsonLogo.png" alt="TowsonLogo">
+                <h3>Sign Up</h3>
+                <label for="username">Username:</label>
+                <input type="text" name="username" required> <br>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" required> <br>
+
+                <label for="referral">Referral Code:</label>
+                <input type="text" name="referral"> <br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" required> <br>
+
+                <label for="verifypassword">Verify Password:</label>
+                <input type="password" name="verifypassword" required> <br> <br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="Signup">
+                <label for="newsletter"> Sign up for our newsletter?</label><br> <br>
+
+                <button type="submit" class="submit">Submit</button>
+            </fieldset>
+        </form>
+        
+        <fieldset>
+            <table>
+                <caption> Menu is subject to change, please visit our <a href="https://towson.edu">main site</a> for more information</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1</td>
+                        <td>Burger</td>
+                        <td>$8</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>Item 2</td>
+                        <td>Mozzarella Sticks</td>
+                        <td>$7</td>
+                        <td rowspan=2> 400</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Item 3</td>
+                        <td>Fries</td>
+                        <td>$4</td>
+                    </tr>
+                </tfoot>
+            </table>
+    </fieldset>
+    </body>
+</html>
