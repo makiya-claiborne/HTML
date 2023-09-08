@@ -1,0 +1,38 @@
+h2
+{
+    font-weight: bold;
+    color:#FFBB00;
+}
+
+table
+{
+    width: 75%;
+    border: 1px solid;
+    background-color: #808080;
+}
+
+th 
+{
+    font-weight: bold;
+}
+
+td 
+{
+    text-align: center;
+}
+
+a:hover 
+{
+    color: #FFBB00;
+}
+
+/* Towson Logo Image Source: https://en.wikipedia.org/wiki/Towson_Tigers */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+
+
